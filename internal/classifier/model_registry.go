@@ -149,8 +149,8 @@ var ModelRegistry = map[string]ModelInfo{
 		// model catalog entry ID so a config that carries the catalog-style ID still
 		// validates and resolves. conf.MigrateModelIDAliases canonicalizes it on load.
 		ConfigAliases: []string{conf.ModelIDBirdNET, conf.ModelIDBirdNETCatalog},
-		SupportedLocales: []string{"af", "ar", "bg", "ca", "cs", "da", "de", "el", "en-uk", "en-us", "es",
-			"et", "fi", "fr", "he", "hr", "hu", "id", "is", "it", "ja", "ko", "lt", "lv", "ml", "nl",
+		SupportedLocales: []string{"af", "ar", "bg", "ca", "cs", "da", "de", "el", "en-nz", "en-uk", "en-us", "es",
+			"et", "fi", "fr", "he", "hr", "hu", "id", "is", "it", "ja", "ko", "lt", "lv", "mi", "ml", "nl",
 			"no", "pl", "pt", "pt-br", "pt-pt", "ro", "ru", "sk", "sl", "sr", "sv", "th", "tr", "uk", "zh"},
 		DefaultLocale: "en-uk",
 		NumSpecies:    6522,
@@ -167,8 +167,8 @@ var ModelRegistry = map[string]ModelInfo{
 		// Catalog form mirrors the catalog entry ID; the underscore primary stays
 		// canonical for write-back. See BirdNET v2.4 entry above.
 		ConfigAliases: []string{conf.ModelIDBirdNETV3, conf.ModelIDBirdNETV3Catalog},
-		SupportedLocales: []string{"af", "ar", "bg", "ca", "cs", "da", "de", "el", "en-uk", "en-us", "es",
-			"et", "fi", "fr", "he", "hr", "hu", "id", "is", "it", "ja", "ko", "lt", "lv", "ml", "nl",
+		SupportedLocales: []string{"af", "ar", "bg", "ca", "cs", "da", "de", "el", "en-nz", "en-uk", "en-us", "es",
+			"et", "fi", "fr", "he", "hr", "hu", "id", "is", "it", "ja", "ko", "lt", "lv", "mi", "ml", "nl",
 			"no", "pl", "pt", "pt-br", "pt-pt", "ro", "ru", "sk", "sl", "sr", "sv", "th", "tr", "uk", "zh"},
 		DefaultLocale: "en-uk",
 	},
