@@ -45,6 +45,7 @@ var LocaleCodeMapping = map[string]string{
 	"da":    "da",
 	"de":    "de",
 	"el":    "el",
+	"en-nz": "en_uk", // English (New Zealand) — no V2.4 label translation; UI names resolve via OpenFauna
 	"en-uk": "en_uk",
 	"en-us": "en_us",
 	"es":    "es",
@@ -62,6 +63,7 @@ var LocaleCodeMapping = map[string]string{
 	"ko":    "ko",
 	"lt":    "lt",
 	"lv":    "lv_lv",
+	"mi":    "en_uk", // Māori — no V2.4 label translation; UI names resolve via OpenFauna
 	"ml":    "ml",
 	"nl":    "nl",
 	"no":    "no",
@@ -95,6 +97,7 @@ var LocaleCodes = map[string]string{
 	"da":    "Danish",
 	"nl":    "Dutch",
 	"el":    "Greek",
+	"en-nz": "English (New Zealand)",
 	"en-uk": "English (UK)",
 	"en-us": "English (US)",
 	"et":    "Estonian",
@@ -112,6 +115,7 @@ var LocaleCodes = map[string]string{
 	"lv":    "Latvian",
 	"lt":    "Lithuanian",
 	"ml":    "Malayalam",
+	"mi":    "Māori",
 	"no":    "Norwegian",
 	"pl":    "Polish",
 	"pt":    "Portuguese",

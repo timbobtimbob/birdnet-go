@@ -1,1 +1,1 @@
-openfauna@1de1739 2026-06-16
+openfauna@de8e153 2026-09-05 (translations from PR branch add-mi-and-en-nz-locales; metadata retained from 1de1739 pending schema-2 migration)
